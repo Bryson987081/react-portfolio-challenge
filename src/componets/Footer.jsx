@@ -1,15 +1,15 @@
 function Footer() {
     return (
-        <footer className="footer">
-            <div className="footer-container">
-                <ul>
-                    <li>
+        <footer className="fixed-bottom">
+            <div>
+                <ul className="list-group mt-5">
+                    <li className="list-group-item text-center">
                         <a href="https://github.com/Bryson987081">GitHub</a>
                     </li>
-                    <li>
+                    <li className="list-group-item text-center">
                         <a href="https://www.linkedin.com/">LinkedIn</a>
                     </li>
-                    <li>
+                    <li className="list-group-item text-center">
                         <a href="https://www.instagram.com/">Instagram</a>
                     </li>
                 </ul>
