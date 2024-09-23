@@ -78,7 +78,7 @@ export default function Contact() {
                     type="text"
                     placeholder="Input text here!"
                 />
-                <button type="submit">
+                <button className="btn btn-primary" type="submit">
                     Submit
                 </button>
             </form>

@@ -1,8 +1,10 @@
 function Header() {
     return (
-        <header className="header sticky-top py-5">
-            <h1>Bryson Shoffner</h1>
+        <div style={{backgroundColor:'#8EACCD'}}>
+        <header className="header sticky-top py-5 mx-3">
+            <h1 className="text-center">Bryson Shoffner's Portfolio</h1>
         </header>
+        </div>
     );
 }
 
