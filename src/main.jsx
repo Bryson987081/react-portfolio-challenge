@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.mini.css'
 import App from './App';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -35,5 +34,5 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <RouterProvider reouter={router} />
+    <RouterProvider router={router} />
 );

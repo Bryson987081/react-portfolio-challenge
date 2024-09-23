@@ -1,7 +1,7 @@
-import { Link, useLocaction } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function NavTabs() {
-    const currentPage = useLocaction().pathname;
+    const currentPage = useLocation().pathname;
 
     return (
         <ul className='nav nav-tabs'>
@@ -15,24 +15,24 @@ function NavTabs() {
             </li>
             <li className='nav-item'>
                 <Link
-                    to='/'
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                    to='/Portfolio'
+                    className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
                 >
-                    Portfolio
+                    My Portfolio
                 </Link>
             </li>
             <li className='nav-item'>
                 <Link
-                    to='/'
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                    to='/Resume'
+                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
                 >
-                    Resume
+                    My Resume
                 </Link>
             </li>
             <li className='nav-item'>
                 <Link
-                    to='/'
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                    to='/Contact'
+                    className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
                 >
                     Contact Me
                 </Link>
