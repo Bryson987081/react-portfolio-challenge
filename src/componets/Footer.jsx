@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer className="fixed-bottom">
+        <footer>
             <div>
                 <ul className="list-group mt-5">
                     <li className="list-group-item text-center">
