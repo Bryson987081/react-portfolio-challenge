@@ -53,6 +53,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="email"
                     placeholder="example@email.com"
+                    required
                 />
                 <input
                     className="mb-1 form-control"
@@ -61,6 +62,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="text"
                     placeholder="First Name"
+                    required
                 />
                 <input
                     className="mb-1 form-control"
@@ -69,6 +71,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="text"
                     placeholder="Last Name"
+                    required
                 />
                 <input
                     className="mb-1 p-4 input-group-text form-control"
@@ -77,6 +80,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="text"
                     placeholder="Input text here!"
+                    required
                 />
                 <button className="btn btn-primary" type="submit">
                     Submit
