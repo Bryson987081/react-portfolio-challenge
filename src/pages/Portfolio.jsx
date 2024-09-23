@@ -2,7 +2,7 @@ export default function Portfolio() {
     return (
         <div>
             <h1>My Work</h1>
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="..." class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -10,7 +10,7 @@ export default function Portfolio() {
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="..." class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -18,7 +18,7 @@ export default function Portfolio() {
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="..." class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -26,7 +26,7 @@ export default function Portfolio() {
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="..." class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -34,7 +34,7 @@ export default function Portfolio() {
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="..." class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -42,7 +42,7 @@ export default function Portfolio() {
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card">
               <img src="..." class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
