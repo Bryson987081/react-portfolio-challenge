@@ -21,7 +21,8 @@ export default function Portfolio() {
                                 <p className="card-text">{project.description}</p>
                             </div>
                             <div className="card-footer">
-                                <a href={project.link} className="btn btn-primary">View Project</a>
+                                <a href={project.link} className="btn btn-primary me-2">View Project</a>
+                                <a href='https://github.com/Bryson987081' className="btn btn-secondary">GitHub Repo</a>
                             </div>
                         </div>
                     </div>
