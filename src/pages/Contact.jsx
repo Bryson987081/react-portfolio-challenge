@@ -43,7 +43,7 @@ export default function Contact() {
     };
 
     return (
-        <div className="m-6 p-5 container text-center">
+        <div className="container text-center">
             <h1>Submit the form to contact me!</h1>
             <form className="form p-5" onSubmit={handleFormSubmit}>
                 <input

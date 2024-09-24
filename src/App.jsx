@@ -8,7 +8,7 @@ function App() {
         <>
         <Header />
         <Nav />
-        <main className='mx-3'>
+        <main className='container-fluid flex-grow-1 d-flex pt-5'>
             <Outlet />
         </main>
         <Footer />
