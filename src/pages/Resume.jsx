@@ -1,10 +1,22 @@
+import resume from "../assets/resume.png";
+
 export default function Resume() {
     return (
-        <div>
-            <h1>My Resume</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime cum amet placeat, ratione quia error nihil porro, dignissimos nostrum consequatur voluptatibus perspiciatis unde sint, hic veniam reprehenderit est eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, labore dignissimos quae asperiores numquam culpa enim illum harum, laudantium veniam, nesciunt ipsum ratione deserunt accusantium. Cumque totam corporis aut harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium soluta rerum sequi recusandae voluptatibus ad, numquam magnam quos dolorem dolores laborum aliquam dignissimos culpa quae natus odit voluptatum fugiat?
-            </p>
+        <div className="container my-4">
+            <h1 className="text-center mb-4">My Resume</h1>
+            <div className="text-center">
+                <img 
+                    src={resume} 
+                    alt="My Resume" 
+                    className="img-fluid rounded shadow p-4" 
+                    style={{ maxWidth: "70%"}}
+                />
+            </div>
+            <div className="text-center">
+                <a href={resume} download className="btn btn-primary mt-4">
+                    Download Resume
+                </a>
+            </div>
         </div>
     );
 }

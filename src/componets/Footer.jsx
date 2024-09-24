@@ -1,16 +1,23 @@
 function Footer() {
     return (
-        <footer>
-            <div>
-                <ul className="list-group mt-5">
-                    <li className="list-group-item text-center">
-                        <a href="https://github.com/Bryson987081">GitHub</a>
+        <footer className="text-center py-4" style={{backgroundColor:'#8EACCD'}}>
+            <div className="container">
+                <h5 className="mb-3">My Socials</h5>
+                <ul className="list-group list-group-flush">
+                    <li className="list-group-item border-0" style={{backgroundColor:'#8EACCD'}}>
+                        <a href="https://github.com/Bryson987081" className="text-dark text-decoration-none" >
+                            GitHub
+                        </a>
                     </li>
-                    <li className="list-group-item text-center">
-                        <a href="https://www.linkedin.com/">LinkedIn</a>
+                    <li className="list-group-item border-0" style={{backgroundColor:'#8EACCD'}}>
+                        <a href="https://www.linkedin.com/" className="text-dark text-decoration-none">
+                            LinkedIn
+                        </a>
                     </li>
-                    <li className="list-group-item text-center">
-                        <a href="https://www.instagram.com/">Instagram</a>
+                    <li className="list-group-item border-0" style={{backgroundColor:'#8EACCD'}}>
+                        <a href="https://www.instagram.com/" className="text-dark text-decoration-none">
+                            Instagram
+                        </a>
                     </li>
                 </ul>
             </div>
