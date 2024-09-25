@@ -1,10 +1,12 @@
+import avatar from "../assets/avatar.png";
+
 export default function About() {
     return (
         <div className="card mx-auto my-4" style={{ maxWidth: '600px' }}>
             <h1 className="card-header text-center">About Me</h1>
             <img 
-                src="https://placehold.co/400x400" 
-                alt="Placeholder" 
+                src= {avatar}
+                alt="My Avatar" 
                 className="card-img-top"
             />
             <div className="card-body">
