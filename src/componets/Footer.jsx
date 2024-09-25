@@ -5,17 +5,17 @@ function Footer() {
                 <h5 className="mb-3">My Socials</h5>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item border-0" style={{backgroundColor:'#8EACCD'}}>
-                        <a href="https://github.com/Bryson987081" className="text-dark text-decoration-none" >
+                        <a href="https://github.com/Bryson987081" target="_blank" rel="noopener noreferrer" className="text-dark text-decoration-none" >
                             GitHub
                         </a>
                     </li>
                     <li className="list-group-item border-0" style={{backgroundColor:'#8EACCD'}}>
-                        <a href="https://www.linkedin.com/" className="text-dark text-decoration-none">
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-dark text-decoration-none">
                             LinkedIn
                         </a>
                     </li>
                     <li className="list-group-item border-0" style={{backgroundColor:'#8EACCD'}}>
-                        <a href="https://www.instagram.com/" className="text-dark text-decoration-none">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-dark text-decoration-none">
                             Instagram
                         </a>
                     </li>

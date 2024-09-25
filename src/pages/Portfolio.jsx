@@ -72,8 +72,8 @@ export default function Portfolio() {
                                 <p className="card-text">{project.description}</p>
                             </div>
                             <div className="card-footer">
-                                <a href={project.liveLink} className="btn btn-primary me-2">View Project</a>
-                                <a href={project.gitHub} className="btn btn-secondary">GitHub Repo</a>
+                                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary me-2">View Project</a>
+                                <a href={project.gitHub} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub Repo</a>
                             </div>
                         </div>
                     </div>
