@@ -5,6 +5,8 @@ import weatherDashboard from "../assets/weather.png";
 import taskBoard from "../assets/taskBoard.png";
 import myBlog from "../assets/myBlog.png";
 
+import './Style.css'
+
 export default function Portfolio() {
     const projects = [
         { 
@@ -66,7 +68,7 @@ export default function Portfolio() {
                         <div className="card h-100">
                             <img src={project.imgSrc} alt={project.title} className="card-img-top" />
                             <div className="card-body">
-                                <h5 className="card-title">{project.title}</h5>
+                                <h5 className="card-title">{project.alt}</h5>
                                 <p className="card-text">{project.description}</p>
                             </div>
                             <div className="card-footer">
